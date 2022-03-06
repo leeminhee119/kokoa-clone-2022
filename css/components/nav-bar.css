@@ -20,9 +20,6 @@
     position: absolute;
     left: 15px;
     bottom: 15px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
 }
 
 .nav__news {
