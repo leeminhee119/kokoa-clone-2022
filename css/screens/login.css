@@ -1,3 +1,15 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    40% { opacity: 0.7}
+    100% {
+        opacity: 1;
+    }
+}
+#login-page {
+    animation: fade-in 2s;
+}
 .welcome-header {
     margin: 90px 0px;
     text-align: center;
@@ -49,4 +61,8 @@
     text-decoration: none;
     color: inherit;
     font-size: 13px;
+}
+
+#no-mobile span{
+    padding: 50px;
 }
