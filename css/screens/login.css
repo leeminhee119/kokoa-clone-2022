@@ -1,3 +1,17 @@
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }  
+    100% {
+        opacity: 1;
+    } 
+}
+@keyframes jump {
+    
+}
+.welcome-page {
+    animation: fade-in 2s;
+}
 .welcome-header {
     margin: 90px 0px;
     text-align: center;

@@ -3,12 +3,13 @@
     z-index: 99; /* 숫자 높게 설정해서 어떤 화면보다 더 위에 있도록 */
     height: 100vh;
     background-color: orange;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 32px;
     top:0;
+    padding: 30px;
 }
 
 @media screen and (max-width:645px) {
