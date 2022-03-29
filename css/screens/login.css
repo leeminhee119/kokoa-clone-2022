@@ -162,11 +162,11 @@
     color: rgba(0,0,0,0.4);
 }
 #login-form input:focus {
-    border-color: sandybrown;
+    border-color: var(--theme-color);
 }
 
 #login-form input[type="submit"] {
-    background-color: sandybrown;
+    background-color: var(--theme-color);
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;
