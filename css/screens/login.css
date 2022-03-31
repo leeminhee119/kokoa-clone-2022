@@ -127,9 +127,6 @@
     }
   }
   
-.welcome-page {
-    animation: fade-in 2s;
-}
 .welcome-header {
     margin: 90px 0px;
     text-align: center;
